@@ -1,0 +1,551 @@
+/* Breakpoints (Puntos de corte) */
+
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1319px) {
+    .wrap{
+        width: 94%;
+        margin: 0px auto;
+    }
+    .card{
+        width: 17%;
+        margin: 0px 13px 0px 13px;
+    }
+    #articles{
+        width: 69%;
+    }
+    #footer .wrap > div {
+        margin: 30px;
+    }
+}
+@media only screen and (min-device-width : 1080px) and (max-device-width : 1199px) {
+    .wrap{
+        width: 96%;
+        margin: 0px auto;
+    }
+    .card {
+        width: 16%;
+        margin: 0px 17px 0px 17px;
+    }
+    #articles{
+        width: 66%;
+    }
+    #footer .wrap > div {
+        margin: 15px;
+    }
+    #banner{
+        width: 97%;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1079px) {
+    .wrap{
+        width: 97%;
+        margin: 0px auto;
+    }
+    .card {
+        width: 17%;
+        margin: 0px 8px 0px 8px;
+    }
+    #articles{
+        width: 65%;
+    }
+    #footer .wrap > div {
+        margin: 15px;
+    }
+    #banner{
+        width: 97%;
+    }
+    #lateral {
+        margin-top: 80px;
+        width: 32%;
+        margin-right: 4px;
+    }
+    #articles {
+        margin-top: 80px;
+    }
+    #footer {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: black;
+        color: white;
+        overflow: hidden;
+    }
+    #footer .wrap > div {
+        margin: 27px;
+    }
+    #lateral input[type="text"] {
+        width: 83%;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        width: 82px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-device-width : 600px) and (max-device-width : 767px){
+    .wrap{
+        width: 96%;
+        margin: 0px auto;
+    }
+    #menu ul li {
+        font-size: 22px;
+        display: inline-block;
+        margin: 0px 8px 0px 8px;
+        letter-spacing: 0px;
+        line-height: 74px;
+    }
+    #banner h1 {
+        display: block;
+        width: 100%;
+        font-family: "BebasNeue";
+        font-size: 28px;
+        color: white;
+        line-height: 106px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: normal;
+        text-shadow: 2xp 2px 1px black;
+    }
+    .card {
+        width: 17%;
+        margin: 0px 5px 0px 5px;
+        height: 168px;
+    }
+    #cards {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .card .icon {
+        color: black;
+        font-size: 35px;
+        margin-top: 28px;
+        transition: all 300ms;
+    }
+    .card .category {
+        color: #00538c;
+        font-size: 15px;
+        margin-top: 31px;
+        font-family: "TrebuchetMS";
+        font-weight: bold;
+        transition: all 300ms;
+    }
+    .description{
+        display: none;
+    }
+    #footer .wrap > div {
+        margin: 15px;
+    }
+    #banner{
+        width: 95%;
+    }
+    #lateral {
+        margin-top: 26px;
+        width: 32%;
+        margin-right: 4px;
+    }
+    #articles {
+        margin-top: 26px;
+        width: 64%;
+    }
+    #articles article {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #footer {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: black;
+        color: white;
+        overflow: hidden;
+    }
+    #footer .wrap > div {
+        width: 230px;
+        margin: 27px;
+    }
+    #lateral input[type="text"] {
+        width: 77%;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        width: 70px;
+        margin-left: 6px;
+    }
+    #login a {
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+    .aside-box {
+        width: 90%;
+        height: 242px;
+        margin: 0px auto;
+        padding-top: 2px;
+    }
+    #lateral h3 {
+        font-size: 26px;
+    }
+    article .data {
+        width: 144px;
+    }
+    #articles h2 {
+        height: 62px;
+        line-height: 68px;
+        font-size: 36px;
+    }
+    #blog {
+        height: 100px !important;
+        margin-top: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 599px){
+    #logo {
+        float: left;
+        width: 200px;
+        height: 53px;
+        background-color: #37bcf9;
+        margin-top: -56px;
+        margin-left: 11px;
+        text-align: center;
+        letter-spacing: 1px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: 300ms;
+    }
+    #header {
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        font-family: "BebasNeue";
+        color: white;
+        margin-top: 60px;
+    }
+    .wrap{
+        width: 96%;
+        margin: 0px auto;
+    }
+    #menu ul li {
+        font-size: 28px;
+        display: inline-block;
+        margin: 0px 18px 0px 18px;
+        letter-spacing: 1px;
+        line-height: 74px;
+    }
+    #banner h1 {
+        display: block;
+        width: 100%;
+        font-family: "BebasNeue";
+        font-size: 28px;
+        color: white;
+        line-height: 106px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: normal;
+        text-shadow: 2xp 2px 1px black;
+    }
+    .card {
+        width: 17%;
+        margin: 0px 3px 0px 3px;
+        height: 168px;
+    }
+    #cards {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .card .icon {
+        color: black;
+        font-size: 35px;
+        margin-top: 28px;
+        transition: all 300ms;
+    }
+    .card .category {
+        color: #00538c;
+        font-size: 15px;
+        margin-top: 31px;
+        font-family: "TrebuchetMS";
+        font-weight: bold;
+        transition: all 300ms;
+    }
+    .description{
+        display: none;
+    }
+    #footer .wrap > div {
+        margin: 15px;
+    }
+    #banner{
+        width: 95%;
+    }
+    #lateral {
+        margin-top: 26px;
+        width: 32%;
+        margin-right: 1px;
+    }
+    #articles {
+        margin-top: 26px;
+        width: 64%;
+    }
+    #articles article {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #footer {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: black;
+        color: white;
+        overflow: hidden;
+    }
+    #footer .wrap > div {
+        width: 89%;
+        margin: 27px;
+    }
+    #lateral input[type="text"] {
+        width: 71%;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        width: 57px;
+        margin-left: 4px;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        display: block;
+        margin: 0px auto;
+        width: 73%;
+        height: 30px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #ccc inset;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    #login a {
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+    .aside-box {
+        width: 90%;
+        height: 242px;
+        margin: 0px auto;
+        padding-top: 2px;
+    }
+    #lateral h3 {
+        display: block;
+        width: auto;
+        height: 46px;
+        background-color: white;
+        background-image: url(../img/pxgray.png);
+        line-height: 50px;
+        box-shadow: 0px 1px 0px #393d3f, 1px 1px 0px #393d3f, 2px 2px 0px #393d3f, 3px 3px 1px #393d3f;
+        font-size: 20px;
+        font-family: "BebasNeue";
+        font-weight: normal;
+        letter-spacing: 1px;
+        padding-left: 14px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+    article .data {
+        width: 144px;
+    }
+    #articles h2 {
+        height: 62px;
+        line-height: 68px;
+        font-size: 36px;
+    }
+    #blog {
+        height: 100px !important;
+        margin-top: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+}
+@media (max-width: 479px){
+    #logo {
+        float: left;
+        width: 200px;
+        height: 53px;
+        background-color: #37bcf9;
+        margin-top: -56px;
+        margin-left: 11px;
+        text-align: center;
+        letter-spacing: 1px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: 300ms;
+    }
+    #header {
+        width: 100%;
+        height: 70px;
+        background-color: #000;
+        font-family: "BebasNeue";
+        color: white;
+        margin-top: 60px;
+    }
+    .wrap{
+        width: 96%;
+        margin: 0px auto;
+    }
+    #menu ul li {
+        font-size: 28px;
+        display: inline-block;
+        margin: 0px 18px 0px 18px;
+        letter-spacing: 1px;
+        line-height: 74px;
+    }
+    #banner h1 {
+        display: block;
+        width: 100%;
+        font-family: "BebasNeue";
+        font-size: 28px;
+        color: white;
+        line-height: 106px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: normal;
+        text-shadow: 2xp 2px 1px black;
+    }
+    .card {
+        width: 17%;
+        margin: 0px 3px 0px 3px;
+        height: 168px;
+    }
+    #cards {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .card .icon {
+        color: black;
+        font-size: 35px;
+        margin-top: 28px;
+        transition: all 300ms;
+    }
+    .card .category {
+        color: #00538c;
+        font-size: 15px;
+        margin-top: 31px;
+        font-family: "TrebuchetMS";
+        font-weight: bold;
+        transition: all 300ms;
+    }
+    .description{
+        display: none;
+    }
+    #footer .wrap > div {
+        margin: 15px;
+    }
+    #banner{
+        width: 95%;
+    }
+    #lateral {
+        margin-top: 26px;
+        width: 97%;
+        margin-right: 10px;
+        min-height: 500px;
+    }
+    #articles {
+        margin-top: 26px;
+        width: 98%;
+    }
+    #articles article {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #footer {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: black;
+        color: white;
+        overflow: hidden;
+    }
+    #footer .wrap > div {
+        width: 89%;
+        margin: 27px;
+    }
+    #lateral input[type="text"] {
+        width: 71%;
+    }
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"], #login button {
+        width: 57px;
+        margin-left: 4px;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        display: block;
+        margin: 0px auto;
+        width: 73%;
+        height: 30px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 1px #ccc inset;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    #login a {
+        display: block;
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        margin-left: 22px;
+        margin-top: 3px;
+    }
+    .aside-box {
+        width: 90%;
+        height: 242px;
+        margin: 0px auto;
+        padding-top: 2px;
+    }
+    #social{
+        display: none;
+    }
+    #lateral h3 {
+        display: block;
+        width: auto;
+        height: 46px;
+        background-color: white;
+        background-image: url(../img/pxgray.png);
+        line-height: 50px;
+        box-shadow: 0px 1px 0px #393d3f, 1px 1px 0px #393d3f, 2px 2px 0px #393d3f, 3px 3px 1px #393d3f;
+        font-size: 20px;
+        font-family: "BebasNeue";
+        font-weight: normal;
+        letter-spacing: 1px;
+        padding-left: 14px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+    .hidden{
+        display: none;
+    }
+
+    article .data {
+        width: 144px;
+    }
+    #articles h2 {
+        height: 62px;
+        line-height: 68px;
+        font-size: 36px;
+    }
+    #blog {
+        height: 100px !important;
+        margin-top: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+}
+
+/* 
+1319
+1200
+1080
+768
+480
+*/
