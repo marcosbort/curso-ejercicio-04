@@ -171,6 +171,13 @@ body{
     color: #37bcf9;
     transform: scale(1.2, 1.2);
 }
+#menu ul li {
+	font-size: 24px;
+	display: inline-block;
+	margin: 0px 15px 0px 15px;
+	letter-spacing: 1px;
+	line-height: 74px;
+}
 
 
 
